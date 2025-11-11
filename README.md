@@ -1,6 +1,6 @@
 # Learnify - E-Learning Platform
 
-![image](Home.png)
+![Home Page](All%20screenshot/Home.png)
 Screenshot of the Learnify homepage.
 
 ## 🚀 Project Overview
