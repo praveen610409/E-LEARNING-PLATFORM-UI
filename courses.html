@@ -1,71 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Courses - Learnify</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-  <header class="navbar">
-    <div class="container nav-content">
-      <h1 class="logo">Learnify</h1>
-      <nav class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="courses.html" class="active">Courses</a>
-        <a href="about.html">About</a>
-        <a href="profile.html">Profile</a>
-        <a href="login.html">Login</a>
-      </nav>
-    </div>
-  </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Courses - Learnify</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="container nav-content">
+                <h1 class="logo">Learnify</h1>
+                <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="courses.html" class="active">Courses</a>
+                <a href="about.html">About</a>
+                <a href="profile.html">Profile</a>
+                <a href="login.html">Login</a>
+                </nav>
+            </div>
+        </header>
 
-  <section class="courses-list">
+        <section class="feature-courses">
     <div class="container">
-      <h2 class="section-title">All Courses</h2>
-      <div class="course-grid">
+        <h3 class="section-title">Our Courses</h3>
+        <div class="course-grid">
+            <div class="course-card">
+                <img src="image/WebDEvelopment.jpeg" alt="Web Development">
+                <div class="class-info">
+                    <h4>Web Development</h4>
+                    <p>Learn HTML, CSS, JavaScript and more.</p>
+                    <a href="course-details/web-development.html" class="btn">Start Course</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="image/DataScience.jpeg" alt="Data Science">
+                <div class="class-info">
+                    <h4>Data Science</h4>
+                    <p>Explore Data Analysis, Python, and Machine Learning.</p>
+                    <a href="course-details/data-science.html" class="btn">Start Course</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="image/FullStack.png" alt="Full Stack Developer">
+                <div class="class-info">
+                    <h4>Full Stack Dev</h4>
+                    <p>Learn frontend & backend with modern tools.</p>
+                    <a href="course-details/fullstack.html" class="btn">Start Course</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="image/AI&Ml.jpg" alt="AI & ML">
+                <div class="class-info">
+                    <h4>AI & ML</h4>
+                    <p>Learn Artificial Intelligence & Machine Learning.</p>
+                    <a href="course-details/AI&ML.html" class="btn">Start Course</a>
+                </div>
+            </div>
 
-        <!-- Course 1 -->
-        <div class="course-card">
-          <img src="assests/images/course1.jpeg" alt="course1" />
-          <div class="class-info">
-            <h4>Web Development</h4>
-            <p>HTML, CSS, JavaScript, and responsive design techniques.</p>
-            <a href="course-details.html" class="btn">View Details</a>
-            <a href="#" class="btn">Enroll Now</a>
-          </div>
+            <div class="course-card">
+                <img src="image/cyberSecurity.jpeg" alt="Cyber Security">
+                <div class="class-info">
+                    <h4>Cyber Security</h4>
+                    <p>Learn ethical hacking, penetration testing, and security basics.</p>
+                    <a href="course-details/cybersecurity.html" class="btn">Start Course</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="image/ui-ux.webp" alt="UI & UX Design">
+                <div class="class-info">
+                    <h4>UI & UX Design</h4>
+                    <p>Design beautiful, user-friendly interfaces and experiences.</p>
+                    <a href="course-details/ui-ux.html" class="btn">Start Course</a>
+                </div>
+            </div>
         </div>
-
-        <!-- Course 2 -->
-        <div class="course-card">
-          <img src="assests/images/course2.jpeg" alt="course2" />
-          <div class="class-info">
-            <h4>Data Science with Python</h4>
-            <p>Data analysis, visualization, NumPy, Pandas, and ML basics.</p>
-            <a href="datascience.html" class="btn">View Details</a>
-            <a href="#" class="btn">Enroll Now</a>
-          </div>
-        </div>
-
-        <!-- Course 3 -->
-        <div class="course-card">
-          <img src="assests/images/course3.png" alt="course3" />
-          <div class="class-info">
-            <h4>Full Stack Developer</h4>
-            <p>Frontend, Backend, APIs, Node.js, MongoDB & more.</p>
-            <a href="full-stack.html" class="btn">View Details</a>
-            <a href="#" class="btn">Enroll Now</a>
-          </div>
-        </div>
-
-        <!-- Add more cards as needed -->
-
-      </div>
     </div>
-  </section>
+</section>
 
-  <footer class="footer">
-    <p>&copy; 2025 Learnify. All rights reserved.</p>
-  </footer>
-</body>
+
+        <footer class="footer">
+            <p>&copy; 2025 Learnify. All rights reserved.</p>
+        </footer>
+    </body>
 </html>
