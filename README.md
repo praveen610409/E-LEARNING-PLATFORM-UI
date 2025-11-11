@@ -92,11 +92,12 @@ Learnify/
 
 ## ✒️ Author
 
-#### Praveen Singh
-### 💻 Full-Stack Web Developer | MCA Final Year Student
-### 📧 praveen610409@gmail.com
+### Praveen Singh
+#### 💻 Full-Stack Web Developer | MCA Final Year Student
+#### 📧 praveen610409@gmail.com
 
-### 🌐 GitHub:- https://github.com/praveen610409
+#### 🌐 GitHub:- https://github.com/praveen610409
+
 
 ## 📄 License
 
